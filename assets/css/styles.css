@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
